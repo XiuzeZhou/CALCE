@@ -8,7 +8,7 @@
 
 **更多内容**
 
-1. 马里兰大学锂电池数据集 CALCE，基于 Python 的锂电池寿命预测（Remaining Useful Life）& （End Of Life）: http://snailwish.com/437/
+1. 马里兰大学锂电池数据集 CALCE，基于 Python 的锂电池寿命预测: http://snailwish.com/437/
 
 2. NASA 锂电池数据集，基于 Python 的锂电池寿命预测: http://snailwish.com/395/
 
