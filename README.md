@@ -5,6 +5,7 @@
 **注意：**如果原始数据集无法成功读取，可以直接选择加载我已经提取出来的数据：CALCE.npy
 
 Battery = np.load('CALCE.npy', allow_pickle=True)
+
 Battery = Battery.item()
 
 **Homepage:** http://zhouxiuze.com
