@@ -3,13 +3,16 @@
 **主要库版本：** pytorch 1.6.0; pandas 0.24.2
 
 **版本更新** 
-1. 2021年12月 添加数据读取模块
 
-如果原始数据集无法成功读取，可以直接选择加载我已经提取出来的数据：CALCE.npy
+- 2022年2月，解决错误“Tensor for argument #2 ‘mat1’ is on CPU, but expected it to be on GPU (while checking arguments for addmm)”
 
-Battery = np.load('CALCE.npy', allow_pickle=True)
+- 2021年12月 添加数据读取模块
 
-Battery = Battery.item()
+    如果原始数据集无法成功读取，可以直接选择加载我已经提取出来的数据：NASA.npy
+
+    Battery = np.load('NASA.npy', allow_pickle=True)
+
+    Battery = Battery.item()
 
 **Homepage:** http://zhouxiuze.com
 
