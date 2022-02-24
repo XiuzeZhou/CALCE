@@ -14,9 +14,11 @@
 
 **版本更新** 
 
-- 2022年2月，解决错误“Tensor for argument #2 ‘mat1’ is on CPU, but expected it to be on GPU (while checking arguments for addmm)”
+- 2022年2月24日，修改部分变量的名字
 
-- 2021年12月 添加数据读取模块
+- 2022年2月6日，解决错误“Tensor for argument #2 ‘mat1’ is on CPU, but expected it to be on GPU (while checking arguments for addmm)”
+
+- 2021年12月1日， 添加数据读取模块
 
     如果原始数据集无法成功读取，可以直接选择加载我已经提取出来的数据：NASA.npy
 
