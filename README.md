@@ -38,6 +38,8 @@ y = np.reshape(train_y[:,-1]/Rated_Capacity,(-1,1)).astype(np.float32)
 
 **版本更新** 
 
+- 2022年5月9日，添加高斯拟合方法：Gaussian fitting.ipynb
+
 - 2022年2月24日，修改部分变量的名字
 
 - 2022年2月6日，解决错误“Tensor for argument #2 ‘mat1’ is on CPU, but expected it to be on GPU (while checking arguments for addmm)”
