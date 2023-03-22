@@ -10,7 +10,7 @@
 
 - pandas 0.24.2
 
-**数据处理参考**
+**数据处理参考来源**
 
 https://github.com/konkon3249/BatteryLifePrediction
 
