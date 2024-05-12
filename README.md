@@ -6,9 +6,10 @@
 
 - pandas 0.24.2
 
-**数据处理参考来源**
+**预测结果**
 
-https://github.com/konkon3249/BatteryLifePrediction
+<img src="figures/prediction_calce.png" width = "100%" />
+
 
 **关于代码的说明：**
 
@@ -53,6 +54,10 @@ y = np.reshape(train_y[:,-1]/Rated_Capacity,(-1,1)).astype(np.float32)
     Battery = np.load('NASA.npy', allow_pickle=True)
 
     Battery = Battery.item()
+
+  **数据处理参考来源**
+
+https://github.com/konkon3249/BatteryLifePrediction
 
  **有任何问题，欢迎留言！**
 
