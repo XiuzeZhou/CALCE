@@ -55,7 +55,7 @@ y = np.reshape(train_y[:,-1]/Rated_Capacity,(-1,1)).astype(np.float32)
 
     Battery = Battery.item()
 
-  **数据处理参考来源**
+**数据处理参考来源**
 
 https://github.com/konkon3249/BatteryLifePrediction
 
