@@ -1,12 +1,8 @@
 # 马里兰大学锂电池数据集 CALCE，基于 Python 的锂电池寿命预测（Remaining Useful Life，RUL）& （End Of Life，EOL）
 
-**相关论文：** 欢迎引用！
-
-- D. Chen, W. Hong, and X. Zhou, "Transformer Network for Remaining Useful Life Prediction of Lithium-Ion Batteries", IEEE Access, 2022. [PDF download](https://github.com/XiuzeZhou/xiuzezhou.github.io/tree/main/pub/Transformer.pdf)
-
 **主要库版本：** 
 
-- pytorch 1.6.0
+- pytorch >=1.6.0
 
 - pandas 0.24.2
 
@@ -41,6 +37,8 @@ https://github.com/konkon3249/BatteryLifePrediction
 y = np.reshape(train_y[:,-1]/Rated_Capacity,(-1,1)).astype(np.float32)
 
 **版本更新** 
+
+- 2024年5月12日，修改部分代码以及添加预测图像
 
 - 2022年5月9日，添加高斯拟合方法：Gaussian fitting.ipynb
 
@@ -77,3 +75,18 @@ y = np.reshape(train_y[:,-1]/Rated_Capacity,(-1,1)).astype(np.float32)
 5. 基于 Pytorch 的 Transformer 锂电池寿命预测: https://snailwish.com/555/
 
 6. 锂电池研究之七——基于 Pytorch 的高斯函数拟合时间序列数据: https://snailwish.com/576/
+
+**参考文献**
+
+```
+@article{chen2022transformer,
+  title={Transformer network for remaining useful life prediction of lithium-ion batteries},
+  author={Chen, Daoquan and Hong, Weicong and Zhou, Xiuze},
+  journal={Ieee Access},
+  volume={10},
+  pages={19621--19628},
+  year={2022},
+  publisher={IEEE}
+}
+```
+[PDF download](https://github.com/XiuzeZhou/xiuzezhou.github.io/tree/main/pub/Transformer.pdf)
